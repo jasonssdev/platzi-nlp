@@ -16,4 +16,9 @@ dependencies:
   - python-dotenv
   - seaborn
   - xlrd
+  - pathlib
+  - nltk
+  - spacy
+  - wordcloud
+  - scikit-learn
 prefix: /opt/anaconda3/envs/nlp-py313
