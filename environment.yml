@@ -1,0 +1,19 @@
+name: nlp-py313
+channels:
+  - conda-forge
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.13
+  - ipykernel
+  - ipywidgets
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - openpyxl
+  - pandas
+  - python-dotenv
+  - seaborn
+  - xlrd
+prefix: /opt/anaconda3/envs/nlp-py313
