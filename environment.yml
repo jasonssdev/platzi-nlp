@@ -1,26 +1,26 @@
-name: nlp-py313
+name: nlp-py312
 channels:
   - conda-forge
   - defaults
   - https://repo.anaconda.com/pkgs/main
   - https://repo.anaconda.com/pkgs/r
 dependencies:
-  - python=3.13
   - ipykernel
   - ipywidgets
   - jupyterlab
   - matplotlib
+  - nltk
+  - notebook
   - numpy
   - openpyxl
   - pandas
-  - python-dotenv
+  - pip
+  - pyarrow=20.0.0
+  - python=3.12
+  - pytorch
+  - scikit-learn
   - seaborn
-  - xlrd
-  - pathlib
-  - nltk
   - spacy
   - wordcloud
-  - scikit-learn
-  - pytorch
-  - transformers
-prefix: /opt/anaconda3/envs/nlp-py313
+  - xlrd
+

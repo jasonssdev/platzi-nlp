@@ -252,3 +252,5 @@ $RECYCLE.BIN/
 data/raw/corpora
 data/raw/tokenizers
 models
+# ignore project-level Transformers cache
+/.cache/huggingface/
