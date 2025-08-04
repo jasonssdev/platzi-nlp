@@ -21,4 +21,6 @@ dependencies:
   - spacy
   - wordcloud
   - scikit-learn
+  - pytorch
+  - transformers
 prefix: /opt/anaconda3/envs/nlp-py313
